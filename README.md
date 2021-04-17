@@ -1,1 +1,85 @@
-# Vroom_Vroom
+Original App Design Project - README Template
+===
+
+# VroomVroom
+
+## Table of Contents
+1. [Overview](#Overview)
+1. [Product Spec](#Product-Spec)
+1. [Wireframes](#Wireframes)
+2. [Schema](#Schema)
+
+## Overview
+### Description
+Our app will be a social media app specifically designed for people such as college students to easily find rideshares. Users will be able to make posts about where they're driving to an from, and users will be able to see these posts in order to get a ride.
+
+### App Evaluation
+[Evaluation of your app across the following attributes]
+- **Category:** Lifestyle 
+- **Mobile:** Our app will be mainly created for mobile app purposes.
+- **Story:** This app will be compelling to our intended audience, which would be majority college students trying to go home from college. Our audience will find this app valuable as it is a need to get a ride home and see your family over the holidays/weekend.
+- **Market:** Probably primarily college students who are driving between their college and other locations or anybody who wants to find a cheap ride or make some money
+- **Habit:** The app will be a useful service, and it will hopefully be used whenever a user needs a ride or would like to make extra money on a long drive.
+- **Scope:** The scope and the function of this app will pretty well defined. We have extra functions that we would like to implement, but they are not needed if we dont have enough time. This app will be somewhat challeneging but we beleive we can finish the app by the end of the program. A stripped-down version of this app would still be interesting to built as the app would still be useful to many students.
+
+## Product Spec
+
+### 1. User Stories (Required and Optional)
+
+**Required Must-have Stories**
+
+* Allow users to make posts about where they're driving
+* Allow users to see other peoples' posts so they can reach out about getting a ride
+
+**Optional Nice-to-have Stories**
+
+* Allow users to search through posts by destination, departure location, and date
+* Allow users to log in and have an account on our app
+* Allow users to message other users using an in-built messaging system
+* Connect the app to Venmo so that riders can pay drivers securely through the app
+* Allow users to leave reviews of drivers and riders
+
+### 2. Screen Archetypes
+
+* Screen showing posts that a user can scroll through
+   * Display all current posts
+   * [Optional] Add a search bar to allow users to search through posts
+* Screen allowing users to create their own post
+   * Have multiple fields: destination, departure, date and time, number of seats available, contact information, additional notes
+* [Optional] Messaging screen allowing users to view and send messages to other users
+* [Optional] Log in screen
+* [Optional] Payment screen
+
+### 3. Navigation
+
+**Tab Navigation** (Tab to Screen)
+
+* Find a Ride (page with posts, search bar on top)
+* [Optional] Your Profile (possible add messages)
+
+**Flow Navigation** (Screen to Screen)
+
+* Find a Ride
+   * Can tap on ride to see details screen that shows all information
+   * [Optional] Can tap on driver name to message them
+   * [Optional] Can see driver reviews
+* [Optional] Your Profile
+   * [Optional] Can see messages and send new messages
+   * [Optional] Can see your reviews
+
+## Wireframes
+[Add picture of your hand sketched wireframes in this section]
+<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+
+### [BONUS] Digital Wireframes & Mockups
+
+### [BONUS] Interactive Prototype
+
+## Schema 
+[This section will be completed in Unit 9]
+### Models
+[Add table of models]
+### Networking
+- [Add list of network requests by screen ]
+- [Create basic snippets for each Parse network request]
+- [OPTIONAL: List endpoints if using existing API such as Yelp]
