@@ -69,7 +69,8 @@ Our app will be a social media app specifically designed for people such as coll
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img width="734" alt="Screen Shot 2021-04-24 at 11 22 33 AM" src="https://user-images.githubusercontent.com/59664875/115969079-0224bb00-a4f0-11eb-8ef4-18f446012905.png">
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
