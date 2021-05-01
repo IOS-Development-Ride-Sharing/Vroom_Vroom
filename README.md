@@ -85,7 +85,6 @@ Our app will be a social media app specifically designed for people such as coll
    | Departing | String   | Where is the driver leaving from? |
    | Destination| String   | Driver Destination |
    | Date / Time  | DateTime | date/time when driver is leaving |
-[Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
