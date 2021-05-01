@@ -79,13 +79,12 @@ Our app will be a social media app specifically designed for people such as coll
  | Property      | Type     | Description |
    | ------------- | -------- | ------------|
    | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   | Driver        | Pointer to User| Driver Name |
+   | Driver Picture| File     | profile picture |
+   | caption       | String   | extra information from driver |
+   | Departing | String   | Where is the driver leaving from? |
+   | Destination| String   | Driver Destination |
+   | Date / Time  | DateTime | date/time when driver is leaving |
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
