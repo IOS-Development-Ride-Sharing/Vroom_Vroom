@@ -15,6 +15,9 @@
 		3A7101B22647090900AED6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7101B02647090900AED6E3 /* LaunchScreen.storyboard */; };
 		3A7101BD2647090900AED6E3 /* VroomVroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101BC2647090900AED6E3 /* VroomVroomTests.swift */; };
 		3A7101C82647090900AED6E3 /* VroomVroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101C72647090900AED6E3 /* VroomVroomUITests.swift */; };
+		80953EC9A8A9A7261CBC0490 /* Pods_VroomVroomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B9D672098D0D192359C40A /* Pods_VroomVroomTests.framework */; };
+		E665DBB0DE019847E57FD159 /* Pods_VroomVroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C02A1DE5C1CE6EF1A9BEC0B /* Pods_VroomVroom.framework */; };
+		EFDF2E4DA69C843FE9D98A52 /* Pods_VroomVroom_VroomVroomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772BA23A0A4FA182232EAB2A /* Pods_VroomVroom_VroomVroomUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,15 @@
 		3A7101C32647090900AED6E3 /* VroomVroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VroomVroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7101C72647090900AED6E3 /* VroomVroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VroomVroomUITests.swift; sourceTree = "<group>"; };
 		3A7101C92647090900AED6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		431BBAD4A3FCE6C198C366E8 /* Pods-VroomVroomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroomTests.release.xcconfig"; path = "Target Support Files/Pods-VroomVroomTests/Pods-VroomVroomTests.release.xcconfig"; sourceTree = "<group>"; };
+		5712103997E056A5C4B644C1 /* Pods-VroomVroomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroomTests.debug.xcconfig"; path = "Target Support Files/Pods-VroomVroomTests/Pods-VroomVroomTests.debug.xcconfig"; sourceTree = "<group>"; };
+		772BA23A0A4FA182232EAB2A /* Pods_VroomVroom_VroomVroomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VroomVroom_VroomVroomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C02A1DE5C1CE6EF1A9BEC0B /* Pods_VroomVroom.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VroomVroom.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84FC5189534C8B243304CDB7 /* Pods-VroomVroom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroom.release.xcconfig"; path = "Target Support Files/Pods-VroomVroom/Pods-VroomVroom.release.xcconfig"; sourceTree = "<group>"; };
+		92249DFAFC207DFB4F4E5001 /* Pods-VroomVroom-VroomVroomUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroom-VroomVroomUITests.debug.xcconfig"; path = "Target Support Files/Pods-VroomVroom-VroomVroomUITests/Pods-VroomVroom-VroomVroomUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		97C5B1829568F8D9C1A626E3 /* Pods-VroomVroom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroom.debug.xcconfig"; path = "Target Support Files/Pods-VroomVroom/Pods-VroomVroom.debug.xcconfig"; sourceTree = "<group>"; };
+		C7B9D672098D0D192359C40A /* Pods_VroomVroomTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VroomVroomTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3FC6E095849EFD3FD52A07D /* Pods-VroomVroom-VroomVroomUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroom-VroomVroomUITests.release.xcconfig"; path = "Target Support Files/Pods-VroomVroom-VroomVroomUITests/Pods-VroomVroom-VroomVroomUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E665DBB0DE019847E57FD159 /* Pods_VroomVroom.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80953EC9A8A9A7261CBC0490 /* Pods_VroomVroomTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EFDF2E4DA69C843FE9D98A52 /* Pods_VroomVroom_VroomVroomUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +98,8 @@
 				3A7101BB2647090900AED6E3 /* VroomVroomTests */,
 				3A7101C62647090900AED6E3 /* VroomVroomUITests */,
 				3A7101A32647090600AED6E3 /* Products */,
+				DD9CB3273CC01B5665112175 /* Pods */,
+				59BB38F7E50F8532188FB409 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -128,6 +145,30 @@
 			path = VroomVroomUITests;
 			sourceTree = "<group>";
 		};
+		59BB38F7E50F8532188FB409 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7C02A1DE5C1CE6EF1A9BEC0B /* Pods_VroomVroom.framework */,
+				772BA23A0A4FA182232EAB2A /* Pods_VroomVroom_VroomVroomUITests.framework */,
+				C7B9D672098D0D192359C40A /* Pods_VroomVroomTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD9CB3273CC01B5665112175 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				97C5B1829568F8D9C1A626E3 /* Pods-VroomVroom.debug.xcconfig */,
+				84FC5189534C8B243304CDB7 /* Pods-VroomVroom.release.xcconfig */,
+				92249DFAFC207DFB4F4E5001 /* Pods-VroomVroom-VroomVroomUITests.debug.xcconfig */,
+				D3FC6E095849EFD3FD52A07D /* Pods-VroomVroom-VroomVroomUITests.release.xcconfig */,
+				5712103997E056A5C4B644C1 /* Pods-VroomVroomTests.debug.xcconfig */,
+				431BBAD4A3FCE6C198C366E8 /* Pods-VroomVroomTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7101CC2647090900AED6E3 /* Build configuration list for PBXNativeTarget "VroomVroom" */;
 			buildPhases = (
+				708EB4FE06E906DAC3FA37C5 /* [CP] Check Pods Manifest.lock */,
 				3A71019E2647090600AED6E3 /* Sources */,
 				3A71019F2647090600AED6E3 /* Frameworks */,
 				3A7101A02647090600AED6E3 /* Resources */,
+				E9E19941E0BCA7C9D202929F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +195,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7101CF2647090900AED6E3 /* Build configuration list for PBXNativeTarget "VroomVroomTests" */;
 			buildPhases = (
+				0589D7F1C023DB56F545ED43 /* [CP] Check Pods Manifest.lock */,
 				3A7101B42647090900AED6E3 /* Sources */,
 				3A7101B52647090900AED6E3 /* Frameworks */,
 				3A7101B62647090900AED6E3 /* Resources */,
@@ -170,9 +214,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3A7101D22647090900AED6E3 /* Build configuration list for PBXNativeTarget "VroomVroomUITests" */;
 			buildPhases = (
+				E97C49A0925388F9111DE82D /* [CP] Check Pods Manifest.lock */,
 				3A7101BF2647090900AED6E3 /* Sources */,
 				3A7101C02647090900AED6E3 /* Frameworks */,
 				3A7101C12647090900AED6E3 /* Resources */,
+				FE89912062BA55420E0A03BE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -252,6 +298,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0589D7F1C023DB56F545ED43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VroomVroomTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		708EB4FE06E906DAC3FA37C5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VroomVroom-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E97C49A0925388F9111DE82D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VroomVroom-VroomVroomUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E9E19941E0BCA7C9D202929F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VroomVroom/Pods-VroomVroom-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VroomVroom/Pods-VroomVroom-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VroomVroom/Pods-VroomVroom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE89912062BA55420E0A03BE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VroomVroom-VroomVroomUITests/Pods-VroomVroom-VroomVroomUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-VroomVroom-VroomVroomUITests/Pods-VroomVroom-VroomVroomUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-VroomVroom-VroomVroomUITests/Pods-VroomVroom-VroomVroomUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3A71019E2647090600AED6E3 /* Sources */ = {
@@ -433,6 +582,7 @@
 		};
 		3A7101CD2647090900AED6E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97C5B1829568F8D9C1A626E3 /* Pods-VroomVroom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -451,6 +601,7 @@
 		};
 		3A7101CE2647090900AED6E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84FC5189534C8B243304CDB7 /* Pods-VroomVroom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -469,6 +620,7 @@
 		};
 		3A7101D02647090900AED6E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5712103997E056A5C4B644C1 /* Pods-VroomVroomTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +642,7 @@
 		};
 		3A7101D12647090900AED6E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 431BBAD4A3FCE6C198C366E8 /* Pods-VroomVroomTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -511,6 +664,7 @@
 		};
 		3A7101D32647090900AED6E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92249DFAFC207DFB4F4E5001 /* Pods-VroomVroom-VroomVroomUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -530,6 +684,7 @@
 		};
 		3A7101D42647090900AED6E3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3FC6E095849EFD3FD52A07D /* Pods-VroomVroom-VroomVroomUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

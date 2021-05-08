@@ -1,0 +1,6 @@
+framework module Pods_VroomVroom {
+  umbrella header "Pods-VroomVroom-umbrella.h"
+
+  export *
+  module * { export * }
+}

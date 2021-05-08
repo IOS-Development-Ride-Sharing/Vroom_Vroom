@@ -1,0 +1,6 @@
+framework module Pods_VroomVroom_VroomVroomUITests {
+  umbrella header "Pods-VroomVroom-VroomVroomUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
