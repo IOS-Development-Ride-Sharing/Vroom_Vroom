@@ -11,7 +11,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="VroomVroom" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginViewController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="VroomVroom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -83,21 +83,47 @@
             </objects>
             <point key="canvasLocation" x="138.40000000000001" y="79.610194902548727"/>
         </scene>
-        <!--View Controller-->
+        <!--Feed View Controller-->
         <scene sceneID="OlJ-MB-auD">
             <objects>
-                <viewController id="9qc-3X-seA" sceneMemberID="viewController">
+                <viewController id="9qc-3X-seA" customClass="FeedViewController" customModule="VroomVroom" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="FuC-rs-1Wu">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="mXa-oi-Jud"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <navigationItem key="navigationItem" id="OZw-5O-uso"/>
+                    <navigationItem key="navigationItem" id="OZw-5O-uso">
+                        <barButtonItem key="leftBarButtonItem" title="Logout" id="UfP-ub-Hhm">
+                            <connections>
+                                <action selector="onLogoutButton:" destination="9qc-3X-seA" id="p61-Pt-8OY"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Post" id="KF5-WZ-sNB">
+                            <connections>
+                                <action selector="onPostButton:" destination="9qc-3X-seA" id="3kf-BX-Mb7"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="DLX-IQ-Q6F" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2922.4000000000001" y="79.610194902548727"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="7IV-rG-i2c">
+            <objects>
+                <viewController id="qY1-8c-ry0" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="aRC-px-8Nb">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="q4h-2L-iVg"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ibt-ia-yxl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3686" y="102"/>
         </scene>
         <!--Item-->
         <scene sceneID="Bli-7b-WfB">
