@@ -12,12 +12,12 @@
 		3A3F55B0265047D400343728 /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3F55AF265047D400343728 /* CreatePostViewController.swift */; };
 		3A7101A62647090600AED6E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101A52647090600AED6E3 /* AppDelegate.swift */; };
 		3A7101A82647090600AED6E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101A72647090600AED6E3 /* SceneDelegate.swift */; };
-		3A7101AA2647090600AED6E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101A92647090600AED6E3 /* ViewController.swift */; };
 		3A7101AD2647090600AED6E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7101AB2647090600AED6E3 /* Main.storyboard */; };
 		3A7101AF2647090900AED6E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A7101AE2647090900AED6E3 /* Assets.xcassets */; };
 		3A7101B22647090900AED6E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A7101B02647090900AED6E3 /* LaunchScreen.storyboard */; };
 		3A7101BD2647090900AED6E3 /* VroomVroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101BC2647090900AED6E3 /* VroomVroomTests.swift */; };
 		3A7101C82647090900AED6E3 /* VroomVroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101C72647090900AED6E3 /* VroomVroomUITests.swift */; };
+		3AA0700E26597BFD009F9106 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0700D26597BFD009F9106 /* PostCell.swift */; };
 		80953EC9A8A9A7261CBC0490 /* Pods_VroomVroomTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C7B9D672098D0D192359C40A /* Pods_VroomVroomTests.framework */; };
 		E665DBB0DE019847E57FD159 /* Pods_VroomVroom.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C02A1DE5C1CE6EF1A9BEC0B /* Pods_VroomVroom.framework */; };
 		EFDF2E4DA69C843FE9D98A52 /* Pods_VroomVroom_VroomVroomUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 772BA23A0A4FA182232EAB2A /* Pods_VroomVroom_VroomVroomUITests.framework */; };
@@ -47,7 +47,6 @@
 		3A7101A22647090600AED6E3 /* VroomVroom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VroomVroom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7101A52647090600AED6E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3A7101A72647090600AED6E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3A7101A92647090600AED6E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3A7101AC2647090600AED6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3A7101AE2647090900AED6E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3A7101B12647090900AED6E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -58,6 +57,7 @@
 		3A7101C32647090900AED6E3 /* VroomVroomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VroomVroomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A7101C72647090900AED6E3 /* VroomVroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VroomVroomUITests.swift; sourceTree = "<group>"; };
 		3A7101C92647090900AED6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3AA0700D26597BFD009F9106 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
 		431BBAD4A3FCE6C198C366E8 /* Pods-VroomVroomTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroomTests.release.xcconfig"; path = "Target Support Files/Pods-VroomVroomTests/Pods-VroomVroomTests.release.xcconfig"; sourceTree = "<group>"; };
 		5712103997E056A5C4B644C1 /* Pods-VroomVroomTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VroomVroomTests.debug.xcconfig"; path = "Target Support Files/Pods-VroomVroomTests/Pods-VroomVroomTests.debug.xcconfig"; sourceTree = "<group>"; };
 		772BA23A0A4FA182232EAB2A /* Pods_VroomVroom_VroomVroomUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VroomVroom_VroomVroomUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,7 +124,6 @@
 			children = (
 				3A7101A52647090600AED6E3 /* AppDelegate.swift */,
 				3A7101A72647090600AED6E3 /* SceneDelegate.swift */,
-				3A7101A92647090600AED6E3 /* ViewController.swift */,
 				3A7101AB2647090600AED6E3 /* Main.storyboard */,
 				3A7101AE2647090900AED6E3 /* Assets.xcassets */,
 				3A7101B02647090900AED6E3 /* LaunchScreen.storyboard */,
@@ -132,6 +131,7 @@
 				3A3F55A5265041F500343728 /* LoginViewController.swift */,
 				3A3F55AA265044AB00343728 /* FeedViewController.swift */,
 				3A3F55AF265047D400343728 /* CreatePostViewController.swift */,
+				3AA0700D26597BFD009F9106 /* PostCell.swift */,
 			);
 			path = VroomVroom;
 			sourceTree = "<group>";
@@ -416,11 +416,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A3F55A6265041F500343728 /* LoginViewController.swift in Sources */,
-				3A7101AA2647090600AED6E3 /* ViewController.swift in Sources */,
 				3A3F55AB265044AB00343728 /* FeedViewController.swift in Sources */,
 				3A7101A62647090600AED6E3 /* AppDelegate.swift in Sources */,
 				3A3F55B0265047D400343728 /* CreatePostViewController.swift in Sources */,
 				3A7101A82647090600AED6E3 /* SceneDelegate.swift in Sources */,
+				3AA0700E26597BFD009F9106 /* PostCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

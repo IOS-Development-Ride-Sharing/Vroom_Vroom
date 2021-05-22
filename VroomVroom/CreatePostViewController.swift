@@ -12,7 +12,8 @@ class CreatePostViewController: UIViewController {
 
     @IBOutlet weak var departureLocationField: UITextField!
     @IBOutlet weak var arrivalLocationField: UITextField!
-    @IBOutlet weak var departureDate: UIDatePicker!
+    @IBOutlet weak var dateField: UITextField!
+    @IBOutlet weak var timeField: UITextField!
     @IBOutlet weak var seatsField: UITextField!
     @IBOutlet weak var priceField: UITextField!
     @IBOutlet weak var contactField: UITextField!
@@ -25,17 +26,18 @@ class CreatePostViewController: UIViewController {
     }
     
     @IBAction func onSubmitButton(_ sender: Any) {
-        let post = PFObject(className: "Posts")
+        let post = PFObject(className: "newPosts")
         post["author"] = PFUser.current()!
         post["departure_location"] = departureLocationField.text!
         post["arrival_location"] = arrivalLocationField.text!
-        post["departure_date"] = departureDate.date
+        post["departure_date"] = dateField.text!
+        post["departure_time"] = timeField.text!
         post["seats"] = seatsField.text!
         post["price"] = priceField.text!
         post["contact"] = contactField.text!
         post["notes"] = (notesField.text) ?? ()
         
-        if departureLocationField.text == "" || arrivalLocationField.text == "" || seatsField.text == "" || priceField.text == "" || contactField.text == "" {
+        if departureLocationField.text == "" || arrivalLocationField.text == "" || seatsField.text == "" || priceField.text == "" || contactField.text == "" || dateField.text == "" || timeField.text == "" {
             print("Error: Must fill out required fields")
         } else{
             post.saveInBackground { (success, error) in
