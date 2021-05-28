@@ -101,12 +101,10 @@ Our app will be a social media app specifically designed for people such as coll
 
 GIFS
 First Sprint:
-![part1]
-(https://user-images.githubusercontent.com/59664875/119082258-8dd81d00-b9b2-11eb-8fef-e187245b4c7d.gif)
+![part1](https://user-images.githubusercontent.com/59664875/119082258-8dd81d00-b9b2-11eb-8fef-e187245b4c7d.gif)
 
 Part 2:
-![part 2]
-(https://user-images.githubusercontent.com/59664875/119082264-92043a80-b9b2-11eb-8386-6e710403141d.gif)
+![part 2](https://user-images.githubusercontent.com/59664875/119082264-92043a80-b9b2-11eb-8386-6e710403141d.gif)
 
 Second Sprint:
 Part 3:
