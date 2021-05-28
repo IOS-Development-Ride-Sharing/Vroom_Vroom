@@ -100,8 +100,17 @@ Our app will be a social media app specifically designed for people such as coll
 - [OPTIONAL: List endpoints if using existing API such as Yelp]
 
 GIFS
-![part1](https://user-images.githubusercontent.com/59664875/119082258-8dd81d00-b9b2-11eb-8fef-e187245b4c7d.gif)
+First Sprint:
+![part1]
+(https://user-images.githubusercontent.com/59664875/119082258-8dd81d00-b9b2-11eb-8fef-e187245b4c7d.gif)
 
 Part 2:
-![part 2](https://user-images.githubusercontent.com/59664875/119082264-92043a80-b9b2-11eb-8386-6e710403141d.gif)
+![part 2]
+(https://user-images.githubusercontent.com/59664875/119082264-92043a80-b9b2-11eb-8386-6e710403141d.gif)
+
+Second Sprint:
+Part 3:
+![ezgif com-gif-maker](https://user-images.githubusercontent.com/59664875/119912902-418c6000-bf11-11eb-9536-8db49ea400a8.gif)
+
+
 
