@@ -28,13 +28,13 @@ Our app will be a social media app specifically designed for people such as coll
 
 **Required Must-have Stories**
 
-- [ ] Allow users to make posts about where they're driving
-- [ ] Allow users to see other peoples' posts so they can reach out about getting a ride
+- [X] Allow users to make posts about where they're driving
+- [X] Allow users to see other peoples' posts so they can reach out about getting a ride
 
 **Optional Nice-to-have Stories**
 
-- [ ] Allow users to search through posts by destination, departure location, and date
-- [ ] Allow users to log in and have an account on our app
+- [X] Allow users to search through posts by destination, departure location, and date
+- [X] Allow users to log in and have an account on our app
 - [ ] Allow users to message other users using an in-built messaging system
 - [ ] Connect the app to Venmo so that riders can pay drivers securely through the app
 - [ ] Allow users to leave reviews of drivers and riders
