@@ -20,6 +20,8 @@
 		3A7101BD2647090900AED6E3 /* VroomVroomTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101BC2647090900AED6E3 /* VroomVroomTests.swift */; };
 		3A7101C82647090900AED6E3 /* VroomVroomUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A7101C72647090900AED6E3 /* VroomVroomUITests.swift */; };
 		3AA0700E26597BFD009F9106 /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA0700D26597BFD009F9106 /* PostCell.swift */; };
+		3AE09A162662B8F000244D66 /* DriverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE09A152662B8F000244D66 /* DriverViewController.swift */; };
+		3AE09A1B2662BE3500244D66 /* DriverPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE09A1A2662BE3500244D66 /* DriverPostCell.swift */; };
 		3AE0DF432659B0C400731F9A /* ProfilePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0DF422659B0C400731F9A /* ProfilePostCell.swift */; };
 		3AE0DF482659B75100731F9A /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0DF472659B75100731F9A /* SearchViewController.swift */; };
 		3AE0DF4D2659BF5400731F9A /* SearchPostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE0DF4C2659BF5400731F9A /* SearchPostCell.swift */; };
@@ -65,6 +67,8 @@
 		3A7101C72647090900AED6E3 /* VroomVroomUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VroomVroomUITests.swift; sourceTree = "<group>"; };
 		3A7101C92647090900AED6E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AA0700D26597BFD009F9106 /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		3AE09A152662B8F000244D66 /* DriverViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverViewController.swift; sourceTree = "<group>"; };
+		3AE09A1A2662BE3500244D66 /* DriverPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DriverPostCell.swift; sourceTree = "<group>"; };
 		3AE0DF422659B0C400731F9A /* ProfilePostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePostCell.swift; sourceTree = "<group>"; };
 		3AE0DF472659B75100731F9A /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		3AE0DF4C2659BF5400731F9A /* SearchPostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPostCell.swift; sourceTree = "<group>"; };
@@ -147,6 +151,8 @@
 				3AE0DF422659B0C400731F9A /* ProfilePostCell.swift */,
 				3AE0DF472659B75100731F9A /* SearchViewController.swift */,
 				3AE0DF4C2659BF5400731F9A /* SearchPostCell.swift */,
+				3AE09A152662B8F000244D66 /* DriverViewController.swift */,
+				3AE09A1A2662BE3500244D66 /* DriverPostCell.swift */,
 			);
 			path = VroomVroom;
 			sourceTree = "<group>";
@@ -430,11 +436,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3AE09A162662B8F000244D66 /* DriverViewController.swift in Sources */,
 				3AE0DF482659B75100731F9A /* SearchViewController.swift in Sources */,
 				3A5FF91E2659A424008B81DB /* EditProfileViewController.swift in Sources */,
 				3AE0DF432659B0C400731F9A /* ProfilePostCell.swift in Sources */,
 				3A3F55A6265041F500343728 /* LoginViewController.swift in Sources */,
 				3A3F55AB265044AB00343728 /* FeedViewController.swift in Sources */,
+				3AE09A1B2662BE3500244D66 /* DriverPostCell.swift in Sources */,
 				3A7101A62647090600AED6E3 /* AppDelegate.swift in Sources */,
 				3A3F55B0265047D400343728 /* CreatePostViewController.swift in Sources */,
 				3A5FF9192659A28E008B81DB /* ProfileViewController.swift in Sources */,
