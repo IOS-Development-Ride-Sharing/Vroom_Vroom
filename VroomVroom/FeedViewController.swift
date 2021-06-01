@@ -74,13 +74,14 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         return cell
     }
     
-    
+    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        if sender as! Any.Type == UITableViewCell.self {
         let cell = sender as! UITableViewCell
         let indexPath = tableView.indexPath(for: cell)!
         let post = posts[indexPath.row]
@@ -88,7 +89,8 @@ class FeedViewController: UIViewController, UITableViewDelegate, UITableViewData
         driverViewController.driver=post["author"] as! PFUser
         //deselect so that cell is not highlighted when you go back
         tableView.deselectRow(at: indexPath, animated: true)
+        }
     }
-    
+    */
 
 }
