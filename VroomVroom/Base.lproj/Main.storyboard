@@ -92,7 +92,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="338" id="ypn-dx-WHx" customClass="PostCell" customModule="VroomVroom" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="PostCell" rowHeight="338" id="ypn-dx-WHx" customClass="PostCell" customModule="VroomVroom" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="375" height="338"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ypn-dx-WHx" id="7XG-tN-kjf">
@@ -301,6 +301,7 @@
                                             <outlet property="priceLabel" destination="OQa-l1-kZd" id="ER4-F7-Z51"/>
                                             <outlet property="seatsLabel" destination="zp5-qe-NWB" id="m1K-zJ-Teh"/>
                                             <outlet property="timeLabel" destination="6hk-ub-ciA" id="8Za-w1-IJ3"/>
+                                            <segue destination="tpY-je-kYc" kind="show" identifier="driverSegue" id="9wG-Ae-Hj6"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -1224,6 +1225,9 @@
             <point key="canvasLocation" x="1981.5999999999999" y="-582.45877061469275"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="9wG-Ae-Hj6"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="magnifyingglass" catalog="system" width="128" height="115"/>
